@@ -46,10 +46,10 @@ public class CheckLabConfig {
 		String expected;
 
 		if (!snapsCheck) {
-			pattern = "sp21-s[\\d]+";
+			pattern = "sp21-s[\\d]+|CS61B";
 			expected = "sp21-s1234";
 		} else {
-			pattern = "snaps-sp21-s[\\d]+";
+			pattern = "snaps-sp21-s[\\d]+|CS61B";
 			expected = "snaps-sp21-s1234";
 		}
 
